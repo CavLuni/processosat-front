@@ -1,0 +1,10 @@
+.mat-card-image {
+  width: 182px;
+  height: 268px;
+  margin: auto;
+  display: block;
+}
+
+.content {
+  background-color: rgb(0, 179, 143);
+}

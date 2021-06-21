@@ -1,0 +1,40 @@
+
+.sidenav-container {
+  height: 100%;
+ 
+}
+
+.sidenav {
+  width: 200px;
+  box-shadow: 3px 0 6px rgb(255, 255, 255);
+  background-color: rgb(123, 196, 241);
+}
+
+.app-content {
+  min-height: calc(100vh - 110px);
+  background-color: rgb(255, 255, 255);
+}
+
+.app-title {
+  text-transform: uppercase;
+  padding-left: 26px;
+}
+
+.header-toolbar {
+  justify-content: space-between;
+  height: 22mm;
+  background-color: rgb(123, 196, 241);
+}
+
+.menu {
+  height: 22mm;
+  background-color: rgb(123, 196, 241);
+}
+.menu-list {
+  background-color: rgb(0, 73, 118);
+}
+
+img {
+  height: 18mm;
+ 
+}

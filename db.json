@@ -1,0 +1,44 @@
+{
+  "users": [
+    {
+      "nome": "Patricia DIO",
+      "urlFoto": "https://tribunadovale.com.br/wp-content/uploads/2019/11/de7efb7c-d917-4266-a2b9-6f8baf9ec6de.jpeg",
+      "dtCadastro": "1997-07-11T03:00:00.000Z",
+      "email": "patricia@dio.com.br",
+      "emailAux": "pat2753435@gmail.com",
+      "id": 1
+    },
+    {
+      "nome": "Roberto César",
+      "urlFoto": "https://super.abril.com.br/wp-content/uploads/2019/02/tecnologia-ia-rostos-02.png",
+      "dtCadastro": "2005-07-11T03:00:00.000Z",
+      "email": "roberto@dio.com.br",
+      "emailAux": "rob2753435@gmail.com",
+      "id": 2
+    },
+    {
+      "nome": "Jhon Cavalcanti",
+      "urlFoto": "https://cdn.folhape.com.br/upload/dn_arquivo/2019/08/rafael-coelho-4.jpg",
+      "dtCadastro": "2000-07-11T03:00:00.000Z",
+      "email": "jhon@dio.com.br",
+      "emailAux": "jon.rob2753435@gmail.com",
+      "id": 3
+    },
+    {
+      "nome": "Esther Lombart",
+      "urlFoto": "https://www.unicef.org/brazil/sites/unicef.org.brazil/files/styles/hero_mobile/public/geramove-thayane.jpg?itok=rXb61j72",
+      "dtCadastro": "2021-05-03T03:00:00.000Z",
+      "email": "esther@dio.com.br",
+      "emailAux": "est2753435@gmail.com",
+      "id": 4
+    },
+    {
+      "nome": "Teste sem foto",
+      "urlFoto": null,
+      "dtCadastro": "2021-05-12T03:00:00.000Z",
+      "email": "teste@gmail.com",
+      "emailAux": "testesecundario@gmail.com",
+      "id": 5
+    }
+  ]
+}

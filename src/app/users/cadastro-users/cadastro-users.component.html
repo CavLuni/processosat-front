@@ -1,0 +1,17 @@
+<mat-toolbar class="app-title">Cadastrar Usuário</mat-toolbar>
+<div class="main-div">
+  <mat-card class="center width50" *ngIf="cadastro" >
+    <form autocomplete="off" novalidate [formGroup]="cadastro" (ngSubmit)="submit()" (ngReset)="reiniciarForm()">
+      <mat-card-content>
+        <dio-input-text titulo="Nome *" controlName="nome" [formGroup]="cadastro"></dio-input-text>
+        <dio-input-text titulo="Link Foto" controlName="urlFoto" [formGroup]="cadastro"></dio-input-text>
+        <dio-input-text titulo="Email" controlName="email" [formGroup]="cadastro"></dio-input-text>
+        <dio-input-text titulo="Telefone" controlName="telefone" [formGroup]="cadastro"></dio-input-text>       
+      </mat-card-content>
+      <mat-card-actions>
+        <button type="submit" color="accent" mat-raised-button>Salvar</button>
+        <button type="reset" color="warn" mat-raised-button>Cancelar</button>
+      </mat-card-actions>
+    </form>
+  </mat-card>
+</div>
