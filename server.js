@@ -1,13 +1,12 @@
 const express = require('express');
-const path = require('path');
 const app = express();
 
 const PORT = process.env.PORT || 4200;
 
-app.use(express.static(__dirname + '/satselection-front/src'));
+app.use(express.static(__dirname + '/dist/angular-material-base'));
 
 app.get('/*',(req,res) => {
-    res.sendFile(__dirname + '/satselection-front/src/index.html/')
+    res.sendFile(__dirname + '/dist/angular-mateial-base/index.html')
 });
 
 app.listen(PORT, () => {
